@@ -14,7 +14,7 @@ st.dataframe(fruits_to_show)
 st.header('FruityVice Fruit Advice!')
 import requests
 fruityvice_response=requests.get("https://fruityvice.com/api/fruit/watermelon")
-st.text (fruityvice_response.json())
+
 fruityvice_normalized=pd.json_normalize(fruityvice_response.json())
 #Output as table
 st.dataframe(fruityvice_normalized)
