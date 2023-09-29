@@ -8,7 +8,7 @@ def init_connection():
     +";DATABASE="
     +st.secrets["database"]
     +";UID="
-    st.secrets["username"]
+    +st.secrets["username"]
     +";PWD="
     +st.secrets
   )
