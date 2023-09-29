@@ -16,5 +16,5 @@ st.radio('Colours',['r','g','b'],index=0)
 st.selectbox('Colours',['r','g','b'],index=1)
 st.number_input('Numbers',min_value=18,max_value=100,value=25)
 
-import sqlite3 as ms
+
 
