@@ -10,3 +10,6 @@ st.write(address)
 date=st.date_input('Enter a Date')
 time=st.time_input('Enter a Time')
 st.write(date,time)
+st.echo()
+>>> with st.echo():
+>>>     st.write('Code will be executed and printed')
