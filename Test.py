@@ -9,6 +9,7 @@ address=st.text_area('Enter your address')
 st.write(address)
 date=st.date_input('Enter a Date')
 time=st.time_input('Enter a Time')
-if st.checkbox("You accept T&C",value=True):
+if st.checkbox("You accept T&C",value=False):
   st.write('Thank You')
 
+st.radio('Colours',['r','g','b'],index=0)
