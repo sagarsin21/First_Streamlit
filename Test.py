@@ -1,3 +1,4 @@
 import streamlit as st
 st.title('ARCHITECTURE')
-st.button('Submit')
+if st.button('Submit')
+  st.write('Submittedd Successfully')
