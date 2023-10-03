@@ -34,7 +34,7 @@ with st.container():
     gl_codes = col1.text_input('GL Code (comma-separated)', key='gl_codes')
     lan = col2.text_input('LAN (comma-separated)', key='lan')
 
-df = pd.DataFrame(from_date,to_date)
+df = pd.DataFrame(from_date)
 # Report selection dropdown
 reports = st.selectbox('Select a report', ['Report 1', 'Report 2', 'Report 3'])
 
