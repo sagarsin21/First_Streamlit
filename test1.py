@@ -21,3 +21,5 @@ def main():
         # Write the data to an Excel file
         df.to_excel("user_data.xlsx", index=False)
         st.success("Data submitted successfully!")
+        if __name__ == "__main__":
+    main()
