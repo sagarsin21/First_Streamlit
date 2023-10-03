@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-def main():
+
     st.title("Streamlit Excel Data Entry")
 
     # Get user input
