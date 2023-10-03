@@ -7,7 +7,7 @@ import pyodbc
 def init_connection():
     return pyodbc.connect(
         "DRIVER={ODBC Driver 17 for SQL Server};SERVER="
-        + st.secrets["localhost"]
+        + st.secrets["DESKTOP-J1I1PPA"]
         + ";DATABASE="
         + st.secrets["mydb"]
         + ";UID="
@@ -26,7 +26,7 @@ def run_query(query):
         cur.execute(query)
         return cur.fetchall()
 
-rows = run_query("SELECT * from mytable;")
+rows = run_query("SELECT * from myTable;")
 
 # Print results.
 for row in rows:
