@@ -40,7 +40,7 @@ reports = st.selectbox('Select a report', ['Report 1', 'Report 2', 'Report 3'])
 
 # Submit button
 if st.button('Submit'):
-    df.to_excel("user_data.xlsx", index=False)
+    df.to_excel("user_data.xlsx", index=True)
     st.success("Data submitted successfully!")
     #username = st.session_state.username  # Set username (you should set this value as needed)
     if not username:
