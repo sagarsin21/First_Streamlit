@@ -6,7 +6,7 @@ import pandas as pd
 
     # Get user input
     name = st.text_input("Enter your name:")
-    age = st.number_input("Enter your age:")
+   # age = st.number_input("Enter your age:")
     email = st.text_input("Enter your email:")
 
     # Create a DataFrame with the user input
