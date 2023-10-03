@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-
-    st.title("Streamlit Excel Data Entry")
+st.title("Streamlit Excel Data Entry")
 
     # Get user input
   #  name = st.text_input("Enter your name:")
