@@ -5,9 +5,9 @@ import pandas as pd
     st.title("Streamlit Excel Data Entry")
 
     # Get user input
-    name = st.text_input("Enter your name:")
+  #  name = st.text_input("Enter your name:")
    # age = st.number_input("Enter your age:")
-    email = st.text_input("Enter your email:")
+   # email = st.text_input("Enter your email:")
 
     # Create a DataFrame with the user input
    # data = {'Name': [name], 'Age': [age], 'Email': [email]}
