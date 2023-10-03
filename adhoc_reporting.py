@@ -34,14 +34,12 @@ with st.container():
     gl_codes = col1.text_input('GL Code (comma-separated)', key='gl_codes')
     lan = col2.text_input('LAN (comma-separated)', key='lan')
 
-df = pd.DataFrame(from_date,customer_id,batch_id,app_ref_no)
+
 # Report selection dropdown
 reports = st.selectbox('Select a report', ['Report 1', 'Report 2', 'Report 3'])
 
 # Submit button
 if st.button('Submit'):
-    df.to_excel("user_data.xlsx", index=True)
-    st.success("Data submitted successfully!")
     #username = st.session_state.username  # Set username (you should set this value as needed)
     if not username:
         st.error('Username cannot be empty. Please enter your username.')
