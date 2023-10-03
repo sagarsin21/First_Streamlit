@@ -4,16 +4,16 @@ import pandas as pd
 st.title("Streamlit Excel Data Entry")
 
     # Get user input
-  #  name = st.text_input("Enter your name:")
-   # age = st.number_input("Enter your age:")
-   # email = st.text_input("Enter your email:")
+ name = st.text_input("Enter your name:")
+ age = st.number_input("Enter your age:")
+ email = st.text_input("Enter your email:")
 
     # Create a DataFrame with the user input
-   # data = {'Name': [name], 'Age': [age], 'Email': [email]}
-    #df = pd.DataFrame(data)
+ data = {'Name': [name], 'Age': [age], 'Email': [email]}
+df = pd.DataFrame(data)
 
     # Display the DataFrame
-   # st.write("Entered Data:", df)
+st.write("Entered Data:", df)
 
     # Add a submit button
    # if st.button("Submit"):
