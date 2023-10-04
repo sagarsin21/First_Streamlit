@@ -4,4 +4,4 @@ import pandas as pd
 st.title('SMFG Reprorting')
 username=None
 username=st.text_input('username',key='username')
-st.button('Submit')
+df=pd.dataframe([username])
