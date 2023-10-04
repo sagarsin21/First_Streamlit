@@ -3,6 +3,6 @@ connection_string = 'DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-J1I1P
 st.header('Hello')
 import pyodbc
 conn = pyodbc.connect(connection_string)
-#import pandas as pd
-#query = 'SELECT * FROM myTable'
-#df = pd.read_sql(query, conn)
+import pandas as pd
+query = 'SELECT * FROM myTable'
+df = pd.read_sql(query, conn)
