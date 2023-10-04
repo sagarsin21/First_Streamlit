@@ -8,9 +8,7 @@ st.title('SMFG Reporting App')
 username = None
 username = st.text_input('Username', key='username')
 # User input fields
-
     if not username:
         st.error('Username cannot be empty. Please enter your username.')
-    else:
-        
+    else:    
         st.write(f"Hello, {username}! Your {reports} will be placed in the shared folder in a few hours. Kindly wait. Thank you!")
